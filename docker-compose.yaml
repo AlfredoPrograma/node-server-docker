@@ -18,6 +18,6 @@ services:
     depends_on:
       - db
     volumes:
-      - .:/usr/people-server/src
+      - .:/usr/src/people-server/
     links:
       - 'db:database'
